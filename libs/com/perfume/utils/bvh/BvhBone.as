@@ -16,6 +16,13 @@ package com.perfume.utils.bvh{
 		public var Yrotation:Number = 0;
 		public var Zrotation:Number = 0;
 		
+		public var translatedX:Number = 0;
+		public var translatedY:Number = 0;
+		public var translatedZ:Number = 0;
+		public var endTranslatedX:Number = 0;
+		public var endTranslatedY:Number = 0;
+		public var endTranslatedZ:Number = 0;
+		
 		public var numChannels:int;
 		public var channels:Vector.<String>;
 		
